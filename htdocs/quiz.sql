@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql
--- Generation Time: Mar 19, 2021 at 03:28 PM
+-- Generation Time: Jun 22, 2021 at 07:09 PM
 -- Server version: 10.5.8-MariaDB-1:10.5.8+maria~focal
 -- PHP Version: 7.4.13
 
@@ -152,7 +152,23 @@ INSERT INTO `score` (`id`, `id_pseudo`, `score`) VALUES
 (56, 7, 52),
 (57, 7, 48),
 (58, 7, 48),
-(59, 7, 72266);
+(59, 7, 72),
+(60, 7, 16),
+(61, 7, 44),
+(62, 18, 28),
+(63, 18, 48),
+(64, 18, 36),
+(65, 18, 48),
+(66, 7, 20),
+(67, 19, 36),
+(68, 19, 64),
+(69, 19, 60),
+(70, 19, 80),
+(71, 1, 0),
+(72, 1, 0),
+(73, 1, 24),
+(74, 1, 0),
+(75, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -180,7 +196,9 @@ INSERT INTO `users` (`id`, `pseudo`, `id_questions`) VALUES
 (14, 'Juju', ''),
 (15, 'Florencia', ''),
 (16, 'Romain', ''),
-(17, 'Hamza', '');
+(17, 'Hamza', ''),
+(18, 'JM', ''),
+(19, 'Chazzy', '');
 
 --
 -- Indexes for dumped tables
@@ -219,13 +237,13 @@ ALTER TABLE `questions`
 -- AUTO_INCREMENT for table `score`
 --
 ALTER TABLE `score`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- Constraints for dumped tables
